@@ -1,0 +1,36 @@
+.header-box {
+    border-bottom: 1px solid #eeeef0;
+    .header-wrapper {
+        display: flex;
+        justify-content: space-between;
+        .icons {
+            li {
+                display: inline-block;
+                border-right: 1px solid #bdbec2;
+                padding: 0px 5px;
+                &:last-child {
+                    border-right: 0;
+                }
+                a {
+                    color: #bdbec2;
+                }
+            }
+        }
+    }
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+    background-color: #fff !important;
+    padding: 0;
+    ul{
+        li{
+            border-right: 1px solid #eeeef0;
+        }
+    }
+}
+.rot{
+    text-align: justify;
+}
+.keo-cong{
+    text-align: center;
+    margin-top: 30px;
+}
